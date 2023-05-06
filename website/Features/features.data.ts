@@ -1,0 +1,133 @@
+/*
+    Resuminator, Web App and the Website for Resuminator
+    Copyright (C) 2021 Resuminator Authors
+
+    This file is part of Resuminator.
+
+    Resuminator is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Resuminator is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Resuminator.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+import {
+  FiAtSign,
+  FiColumns,
+  FiCopy,
+  FiImage,
+  FiMoon,
+  FiTarget,
+  FiType
+} from "react-icons/fi";
+import { RiPaletteLine } from "react-icons/ri";
+import { FeatureCardProps } from "./types";
+
+export const FeatureDetails = [
+  {
+    title: "Drag-n-Drop Layouts",
+    description:
+      "Each element inside your resume can be rearranged using simple drag and drop. Updating layouts would become a breeze when you are editing your resume!",
+    graphic: [
+      "/videos/dnd_light.mp4",
+      "/videos/dnd_dark.mp4"
+    ],
+    color: ["purple.600", "purple.400"]
+  },
+  {
+    title: "Easy Toggles",
+    description:
+      "Keep the data, but hide the content OR simply convert your single column resume into a two-column one with a click. Easy toggle support allows you to put your best foot forward.",
+    graphic: [
+      "/videos/toggle_light.mp4",
+      "/videos/toggle_dark.mp4"
+    ],
+    color: ["#F3CD46", "#F3CD46"]
+  },
+  {
+    title: "Enhanced Design Controls",
+    description:
+      "With a dedicated design panel, you get to control the look and feel of your resume. Add a color which matches your personality. Alter spacing to fit it more content.",
+    graphic: [
+      "videos/design_light.mp4",
+      "/videos/design_dark.mp4"
+    ],
+    color: ["cyan.600", "cyan.400"]
+  },
+  {
+    title: "Customizable Sections",
+    description:
+      "STOP paying to add certain sections on your resume. Create your own custom section in few clicks and use it like any native section for your resume. Add your achievements, contributions, hobbies, anything!",
+    graphic: [
+      "/videos/custom_section_light.mp4",
+      "/videos/custom_section_dark.mp4"
+    ],
+    color: ["#26DF82", "#26DF82"]
+  }
+];
+
+export const LongFeatureDetails: Array<FeatureCardProps> = [
+  {
+    icon: FiCopy,
+    title: "Multiple Resumes",
+    details:
+      "Put your best foot forward with multiple resumes which duplicate in a click. Use your account data to create different resume for different job profiles.",
+    external: ""
+  },
+  {
+    icon: FiColumns,
+    title: "One/Two Columns",
+    details:
+      "Toggle your resume layout between one or two column depending on your details or your recruiter's requirements.",
+    external: ""
+  },
+  {
+    icon: FiAtSign,
+    title: "Social Handles",
+    details:
+      "Add social links for your LinkedIn, GitHub, Twitter, Portfolio, Behance and others to your resume. Create custom contact links if your don't find the one you're looking for!",
+    external: ""
+  },
+  {
+    icon: FiTarget,
+    title: "Detailed Sections",
+    details:
+      "Carefully drafted sections to help you organize and display all the useful information. Easily create custom sections, if you need something else.",
+    external: ""
+  },
+  {
+    icon: RiPaletteLine,
+    title: "Powerful Design Controls",
+    details:
+      "Design your resume with handpicked font pairings, custom colors, and flexible spacing. With grayscale preview to assist you in selecting print-safe colors.",
+    external: ""
+  },
+  {
+    icon: FiType,
+    title: "Rich Text Editor",
+    details:
+      "Edit your resume with ease using our Rich Text Editor with Markdown shortcut support. Integrate with Grammarly® to fix errors without leaving Resuminator.",
+    external: ""
+  },
+  {
+    icon: FiImage,
+    title: "Profile Images",
+    details:
+      "Put a face to that resume. Add separate profile pictures to your resume (or don't) for the job applications that need it.",
+    external: ""
+  },
+  {
+    icon: FiMoon,
+    title: "Dark Mode",
+    details:
+      "Smooth and accessible dark mode support for the late night, last minute resume building sessions. Your eyes will thank you for this.",
+    external: ""
+  }
+];

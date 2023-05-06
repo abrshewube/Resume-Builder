@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "pages/api/download.js": {
+      "memory": 576,
+      "excludeFiles": "public/**/*"
+    }
+  }
+}
